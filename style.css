@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+#input-el {
+    padding: 10px;
+    border: 1.5px solid #5f9341;
+}
+
+.container-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    font-weight: bold;
+    padding: 10px;
+    border: 1.5px solid #5f9341;
+    margin-top: 5px;
+    width: 150px;
+    text-align: center; /* Untuk membuat teks berada di tengah */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#input-btn, #tab-btn {
+    background-color: #5f9341;
+    color: white;
+}
+
+#input-btn:hover,
+#tab-btn:hover {
+    background-color: #2c632d; /* Warna latar gelap saat dihover */
+}
+
+#delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#delete-btn:hover {
+    background-color: #c0392b;
+}
+
+#ul-el {
+    list-style: none;
+    padding-left: 0;
+    margin: 15px 0;
+}
+
+#ul-el li {
+    margin-top: 5px;
+}
+
+#ul-el li a{
+    text-decoration: none;
+    color: #5f9341;
+}
